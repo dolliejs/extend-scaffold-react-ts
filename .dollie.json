@@ -1,0 +1,20 @@
+{
+  "installers": [],
+  "files": {
+    "add": [
+      "src/*.tsx",
+      "tsconfig.json"
+    ],
+    "delete": [
+      "src/App.js",
+      "src/index.js"
+    ],
+    "merge": [
+      "config/webpack.config.js",
+      "package.json",
+      ".babelrc",
+      ".eslintrc.js",
+      ".gitignore"
+    ]
+  }
+}
