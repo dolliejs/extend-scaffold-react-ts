@@ -12,6 +12,7 @@
     "merge": [
       "config/webpack.config.js",
       ".babelrc",
+      "package.json",
       ".eslintrc.js",
       ".gitignore"
     ]
