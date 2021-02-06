@@ -6,8 +6,7 @@
       "tsconfig.json"
     ],
     "delete": [
-      "src/App.js",
-      "src/index.js"
+      "src/(.*).js"
     ],
     "merge": [
       "config/webpack.config.js",
