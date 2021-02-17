@@ -3,7 +3,8 @@
   "files": {
     "add": [
       "src/(.*).tsx",
-      "tsconfig.json"
+      "tsconfig.json",
+      "typings/(.*)"
     ],
     "delete": [
       "src/(.*).js"
