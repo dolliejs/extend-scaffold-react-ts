@@ -2,12 +2,12 @@
   "installers": [],
   "files": {
     "add": [
-      "src/(.*).tsx",
+      "src/**/*.tsx",
       "tsconfig.json",
-      "typings/(.*)"
+      "typings/**/*"
     ],
     "delete": [
-      "src/(.*).js"
+      "src/**/*.js"
     ],
     "merge": [
       "config/webpack.config.js",
